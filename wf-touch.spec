@@ -28,7 +28,7 @@ Requires:       %{name}%{?_isa} = %{version}-%{release}
 Development files for %{name}.
  
 %prep
-%autosetup -p1
+%autosetup -n %{name}-master -p1
  
 
 %build
