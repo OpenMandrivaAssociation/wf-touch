@@ -1,3 +1,4 @@
+%define _empty_manifest_terminate_build 0
 %define git 20210319
 
 Name:           wf-touch
