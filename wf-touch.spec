@@ -12,7 +12,8 @@ Source0:        https://github.com/WayfireWM/wf-touch/archive/refs/heads/wf-touc
  
 BuildRequires:  cmake
 BuildRequires:  meson
- 
+BuildRequires:  pkgconfig(glm)
+
 %description
 Touchscreen gesture library
 
