@@ -37,4 +37,4 @@ which has also been used as a reference for some implementation details at times
  
 %files
 %{_includedir}/wayfire/touch/touch.hpp
-%{_lib64}/libwftouch.*
+%{_libdir}/libwftouch.*
