@@ -8,7 +8,7 @@ Group:          Wayfire
 License:        MIT
 URL:            https://github.com/WayfireWM/wf-touch
 # There is no release or tags yet. So for now use master branch
-Source0:        https://github.com/WayfireWM/wf-touch/archive/refs/heads/master.tar.gz
+Source0:        https://github.com/WayfireWM/wf-touch/archive/refs/heads/wf-touch-master.tar.gz
  
 BuildRequires:  cmake
 BuildRequires:  meson
