@@ -22,13 +22,6 @@ Acknowledgements
 The library's design has been heavily inspired by https://github.com/grahnen/libtouch, 
 which has also been used as a reference for some implementation details at times.
  
-%package        devel
-Summary:        Development files for %{name}
-Requires:       %{name}%{?_isa} = %{version}-%{release}
- 
-%description    devel
-Development files for %{name}.
- 
 %prep
 %autosetup -n %{name}-master -p1
  
@@ -43,3 +36,5 @@ Development files for %{name}.
 %meson_install
  
 %files
+%{_includedir}/wayfire/touch/touch.hpp
+%{_lib64}/libwftouch.*
